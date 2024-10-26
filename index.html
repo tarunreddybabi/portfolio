@@ -305,7 +305,9 @@
               download="Tarun-Reddy-Babireddy-Resume.pdf"
               class="download-button"
             >
-              <span><ion-icon name="download-outline"></ion-icon> Download </span> 
+              <span
+                ><ion-icon name="download-outline"></ion-icon> Download
+              </span>
             </a>
           </header>
 
@@ -411,14 +413,14 @@
           <section class="projects">
             <ul class="filter-list">
               <li class="filter-item">
-                <button class="active" data-filter-btn>Web development</button>
+                <!-- <button class="active" data-filter-btn>Web development</button> -->
               </li>
             </ul>
 
             <div class="filter-select-box">
               <button class="filter-select" data-select>
                 <div class="select-value" data-selecct-value>
-                  Web development
+                  <!-- Web development -->
                 </div>
 
                 <div class="select-icon">
@@ -429,19 +431,49 @@
               <ul class="select-list">
                 <li class="select-item">
                   <button class="active" data-select-item>
-                    Web development
+                    <!-- Web development -->
                   </button>
                 </li>
               </ul>
             </div>
             <ul class="project-list">
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="web development"
-                onclick="window.location.href='https://expense-tracker-gilt-ten.vercel.app/'"
-              >
-                <a href="#">
+
+              <li class="project-item active" data-filter-item>
+                <a href="https://live-doc-project.vercel.app/sign-in" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img
+                      src="./assets/images/liveDoc.png"
+                      alt="finance"
+                      loading="lazy"
+                    />
+                  </figure>
+                  <h3 class="project-title">Collaborative Editor</h3>
+                  <p class="project-category">Full stack</p>
+                </a>
+              </li>
+
+              <li class="project-item active" data-filter-item>
+                <a href="https://my-task-nu-ruddy.vercel.app/users" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img
+                      src="./assets/images/dashboard.png"
+                      alt="finance"
+                      loading="lazy"
+                    />
+                  </figure>
+                  <h3 class="project-title">User & product management</h3>
+                  <p class="project-category">Full stack</p>
+                </a>
+              </li>
+
+              <li class="project-item active" data-filter-item>
+                <a href="https://expense-tracker-gilt-ten.vercel.app/" target="_blank">
                   <figure class="project-img">
                     <div class="project-item-icon-box">
                       <ion-icon name="eye-outline"></ion-icon>
@@ -453,17 +485,12 @@
                     />
                   </figure>
                   <h3 class="project-title">Expense Tracker</h3>
-                  <p class="project-category">Web development</p>
+                  <p class="project-category">Full stack</p>
                 </a>
               </li>
-
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="web development"
-                onclick="window.location.href='https://tarunreddybabi.github.io/Quiz/'"
-              >
-                <a href="#">
+            
+              <li class="project-item active" data-filter-item>
+                <a href="https://tarunreddybabi.github.io/Quiz/" target="_blank">
                   <figure class="project-img">
                     <div class="project-item-icon-box">
                       <ion-icon name="eye-outline"></ion-icon>
@@ -479,6 +506,7 @@
                 </a>
               </li>
             </ul>
+            
           </section>
         </article>
 
